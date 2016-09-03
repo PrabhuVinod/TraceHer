@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srkrit.traceher.Aboutus"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" >
+
+            <TextView
+                android:text="S.R.K.R.ENGINEERING COLLEGE*"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:onClick="openSrkr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/srkr_logo"
+                android:id="@+id/imageView" />
+
+            <TextView
+                android:text="Sagi Rama Krishnam Raju Engineering College will be offering Engineering and Technology Programs of choice, where parents want to send their children, where students want to learn, where employers seek Quality Engineers and Technologists, where Industry and Government find Technological Innovations."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+
+            <TextView
+                android:text="Information Technology Department*"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:onClick="openSrkrIt"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/srkrit_logo" />
+
+            <TextView
+                android:text="We thrive to be a knowledgeable, customer-focused, empowered, and professional team and to continue to be recognized as the unchallenged national leader of information systems and technology education that makes SRKRECIT as a leader for innovation and life-long learner."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:text="Developer Details"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/dev_details"
+                android:text="Prabhu Vinod*"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Full Stack Web Developer AND Android Developer"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:textSize="10sp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Being a full-stack developer means to have an open mind towards new technologies, having your hands dirty in each one and to have an understanding of how a application gets done from a concept to a design and to the finished product."
+                android:layout_width="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:text="I am an undergraduate from at S.R.K.R Engineering college, IT Department. I am passionate about Web and Android app development."/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:textSize="10sp"
+            android:text="(* : Click to view details)"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

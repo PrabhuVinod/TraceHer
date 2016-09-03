@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_helpscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.srkrit.traceher.Helpscreen">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="15dp"
+android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Trace Her can INSTANTLY alert the Guardians( along with user location ) whenever the user is in an emergency situation. It can be triggered just by shaking the android device in which the app is installed."/>
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:text="For Guardian:"
+    android:textStyle="bold"
+    android:textSize="25sp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="\nStep 1: Register by providing appropriate details."/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="\nStep 2: Now you can tract your children location on Map in app and get an alert whenever he/she is in emergency.(Note: If you are chosen by your children as their Guardian.)"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:text="\nFor Children:"
+    android:textStyle="bold"
+    android:textSize="25sp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="\nStep 1: Register by providing appropriate details."/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="\nStep 2: Enable tracing whenever you are remote( example:when leaving your home ). You amy close the app after enabling tracing, but the process will be running in background. "/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="\nWhile tracing the background process is running, you can alert your guardian by shaking your mobile device. And your guardian will recieve an sms(standard sms charges applied as per your network.) with your location as content and your guardian can track you in his (Trace Her)app using map."/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="\nStep 3: Disable tracing when you are back home( saves battery ).  "/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:text="\nBe SAFE and Enjoy!"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="\nTrace Her - An SRKR-IT product"
+        android:textStyle="bold"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>
+
+
+    </ScrollView>

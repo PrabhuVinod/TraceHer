@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_child"
+    android:layout_width="match_parent"
+    android:background="@color/srkr_dark_red"
+    android:layout_height="match_parent"
+    tools:context="com.srkrit.traceher.ChildActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/srkr_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/srkr_clg_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/srkr_logo"/>
+
+
+
+        <ImageView
+            android:id="@+id/srkr_it_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/srkrit_logo"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/srkr_logo"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:text="To track tour children location."
+            />
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/track_btn"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Track\nLocation"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            fbutton:paddingEnd="15dp"
+            fbutton:paddingStart="15dp"
+            fbutton:buttonColor="@color/red"
+            fbutton:shadowColor="@color/grey"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="5dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

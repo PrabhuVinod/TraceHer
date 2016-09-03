@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_child"
+            android:icon="@drawable/child_icon"
+            android:title="Child Module" />
+        <item
+            android:id="@+id/nav_guardian"
+            android:icon="@drawable/guardian_icon"
+            android:title="Guardian Module" />
+        <item
+            android:id="@+id/nav_open_map"
+            android:icon="@drawable/map_icon"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/register_icon"
+            android:title="Register / edit details" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/nav_info_icon"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/nav_help_icon"
+                android:title="Help" />
+        </menu>
+    </item>
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit_icon"
+                android:title="Quit" />
+        </menu>
+    </item>
+
+</menu>
